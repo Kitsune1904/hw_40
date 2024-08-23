@@ -11,7 +11,7 @@ import {Notes} from "./components/Notes/Notes.jsx";
 function App() {
   return (
     <AlbumsProvider>
-      <BrowserRouter basename={"/hw_40"}>
+      <BrowserRouter basename={"main--kitsune40.netlify.app/"}>
         <Navigation></Navigation>
         <Routes>
           <Route path={'/'} element={<Main/>}></Route>
