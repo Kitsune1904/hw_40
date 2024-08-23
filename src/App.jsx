@@ -10,8 +10,8 @@ import {Notes} from "./components/Notes/Notes.jsx";
 
 function App() {
   return (
-    <AlbumsProvider basename={"/hw_40"}>
-      <BrowserRouter >
+    <AlbumsProvider>
+      <BrowserRouter basename={"/hw_40"}>
         <Navigation></Navigation>
         <Routes>
           <Route path={'/'} element={<Main/>}></Route>
